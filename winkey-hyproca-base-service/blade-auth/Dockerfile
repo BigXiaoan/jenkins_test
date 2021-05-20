@@ -1,0 +1,13 @@
+FROM guanzhiguo/auth-service:release-1.0.0
+
+RUN mkdir -p /blade/auth
+
+WORKDIR /blade/auth
+
+EXPOSE 8100
+
+ADD ./target/blade-auth.jar ./app.jar
+
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "app.jar"]
+
+CMD ["--spring.profiles.active=test"]

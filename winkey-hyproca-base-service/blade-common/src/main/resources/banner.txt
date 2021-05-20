@@ -1,8 +1,0 @@
-${AnsiColor.BLUE}             __      __  .__            __
-${AnsiColor.BLUE}            /  \    /  \ |__|   ____   |  | __   ____    ___.__.
-${AnsiColor.BLUE}            \   \/\/   / |  |  /    \  |  |/ / _/ __ \  <   |  |
-${AnsiColor.BLUE}             \        /  |  | |   |  \ |    <  \  ___/   \___  |
-${AnsiColor.BLUE}              \__/\  /   |__| |___|  / |__|_ \  \___  >  / ____|
-${AnsiColor.BLUE}                   \/              \/       \/      \/   \/
-
-${AnsiColor.BLUE}:: Winkey :: ${spring.application.name}:${AnsiColor.RED}${blade.env}${AnsiColor.BLUE} :: Running SpringBoot ${spring-boot.version} :: ${AnsiColor.BRIGHT_BLACK}
